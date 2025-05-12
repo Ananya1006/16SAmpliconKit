@@ -17,7 +17,7 @@ Here’s an example of how to define the BioProject and SRR IDs:
 
 ```
 # Define associative array with BioProjects and SRR IDs : 
-Example --> ["BioprojectID_samplesno."]="SRRID1 SRRID2 ....."
+# Example --> ["BioprojectID_samplesno."]="SRRID1 SRRID2 ....."
 BIOPROJECTS=(
       ["PRJNA701402_1"]="SRR13686819"
       ["PRJNA1232715_1"]="SRR32595386"
