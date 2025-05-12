@@ -1,0 +1,33 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: 16SAmpliconKit Documentation
+author: Ananya
+logo: logo.png
+
+# Force re-execution of notebooks on each build
+execute:
+  execute_notebooks: "off"
+
+# Add a bibtex file so that we can create citations
+# Uncomment and provide actual file if using references
+# bibtex_bibfiles:
+#   - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/Ananya1006/16SAmpliconKit
+  branch: main
+  path_to_book: docs/
+
+# Add GitHub buttons to your book
+html:
+  favicon: favicon.ico  
+  use_issues_button: true
+  use_repository_button: true
+  comments:
+    utterances:
+      repo: 'sanjaynagi/ampseeker'
+      issue-term: 'pathname'
+      label: 'comment'
+      theme: 'github-light'

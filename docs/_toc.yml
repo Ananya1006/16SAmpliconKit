@@ -1,0 +1,14 @@
+format: jb-book
+root: intro
+parts:
+- caption: Getting started
+  chapters:
+    - file: directory_str
+    - file: installation
+    - file: test_pipeline
+    - file: fetch_data
+    - file: run_pipeline
+- caption: Troubleshooting
+  chapters:
+    - file: additional_info
+
